@@ -4,13 +4,13 @@ This example demonstrates the GPIO pin operation on the XMC7000 MCU, using Eclip
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-pdl-xmc7000-gpio-pins)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MzAiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgzMCIsIkRvYyBUaXRsZSI6IlhNQzcwMDAgTUNVOiBHUElPIHBpbnMiLCJyaWQiOiJ6cWxpIiwiRG9jIHZlcnNpb24iOiIxLjAuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MzAiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgzMCIsIkRvYyBUaXRsZSI6IlhNQzcwMDAgTUNVOiBHUElPIHBpbnMiLCJyaWQiOiJ6cWxpIiwiRG9jIHZlcnNpb24iOiIxLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 ## Requirements
 
 - [ModusToolbox&trade; software](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
 - Programming language: C
-- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/)
+- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/), [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/)
 
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
@@ -23,7 +23,7 @@ This example demonstrates the GPIO pin operation on the XMC7000 MCU, using Eclip
 ## Supported kits (make variable 'TARGET')
 
 - [XMC7200 evaluation kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`) - Default value of `TARGET`
-
+- [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_EVK) (`KIT_T2G-B-H_EVK`)
 
 ## Hardware setup
 
@@ -341,6 +341,7 @@ Document title: *CE234830* - *XMC7000 MCU： GPIO pins*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.1.0   | Added support for KIT_T2G-B-H_EVK
 <br />
 
 ---------------------------------------------------------
