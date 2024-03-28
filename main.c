@@ -9,7 +9,7 @@
 *
 *
 *******************************************************************************
-* Copyright 2022-2023, Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2022-2024, Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
 *
 * This software, including source code, documentation and related
@@ -279,9 +279,9 @@ static void pdl_code_example()
         /* read-modify-write operations. All pins in a Port under direct register */
         /* control should only be accessed by a single CPU core. */
 
-        portReadValue = GPIO_PRT5->IN;
+        portReadValue = GPIO_PRT9->IN;
         portReadValue++;
-        GPIO_PRT5->OUT = portReadValue;
+        GPIO_PRT9->OUT = portReadValue;
     }
 }
 
